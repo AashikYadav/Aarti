@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>दिव्य आरती संग्रह | Royal Personal Edition</title>
+
+    <!-- Google Fonts: Rozha One (Grand Serif), Rozha/Tiro/Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Noto+Serif+Devanagari:wght@400;600;700&family=Rozha+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ROYAL TEMPLE HEADER -->
+    <header class="royal-header">
+        <div class="header-ornament-bar">
+            <span>ॐ श्री गणेशाय नमः</span>
+            <span class="om-symbol">卐</span>
+            <span>ॐ नमो भगवते वासुदेवाय</span>
+        </div>
+
+        <div class="header-container">
+            <div class="brand">
+                <div class="diya-glow">🪔</div>
+                <div>
+                    <h1 class="brand-title">दिव्य आरती संग्रह</h1>
+                    <p class="brand-subtitle">Personal Sanctuary Edition • सस्वर पाठ</p>
+                </div>
+            </div>
+
+            <!-- Quick Interactive Controls -->
+            <div class="header-controls">
+                <button id="bellBtn" class="gold-btn icon-btn" title="ध्वनि घंटी बजाएं">
+                    🔔 <span class="btn-text">घंटी</span>
+                </button>
+                <button id="rhythmBtn" class="gold-btn icon-btn" title="लयबद्ध घंटी">
+                    ⏳ <span class="btn-text">लय</span>
+                </button>
+                <button id="zoomOutBtn" class="gold-btn tool-btn" title="छोटा अक्षर">A-</button>
+                <button id="zoomInBtn" class="gold-btn tool-btn" title="बड़ा अक्षर">A+</button>
+            </div>
+        </div>
+
+        <!-- TAB NAVIGATION BAR FOR 4 AARTIS -->
+        <nav class="aarti-nav">
+            <button class="nav-tab active" data-id="ganesh">श्री गणेश आरती</button>
+            <button class="nav-tab" data-id="hanuman">श्री हनुमान आरती</button>
+            <button class="nav-tab" data-id="shiv">श्री शिव आरती</button>
+            <button class="nav-tab" data-id="lakshmi">श्री लक्ष्मी आरती</button>
+        </nav>
+    </header>
+
+    <!-- MAIN READING SANCTUM -->
+    <main class="sanctum-container">
+
+        <!-- Action Toolbar (Hands-free Auto Scroll & Custom Edit) -->
+        <div class="toolbar">
+            <div class="toolbar-group">
+                <button id="scrollToggleBtn" class="gold-pill-btn">▶ स्वतः स्क्रॉल (Auto-Scroll)</button>
+                <div class="speed-selector">
+                    <label>गति:</label>
+                    <select id="scrollSpeed">
+                        <option value="1">धीमी</option>
+                        <option value="2" selected>मध्यम</option>
+                        <option value="3">तीव्र</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="toolbar-group">
+                <button id="editToggleBtn" class="action-btn">✏️ पद सम्पादित करें</button>
+                <button id="resetAartiBtn" class="action-btn danger">मूल रूप में लाएं</button>
+            </div>
+        </div>
+
+        <!-- AARTI DISPLAY CARD -->
+        <article class="royal-card">
+            <div class="card-border-ornament top-ornament">❖ 𑁍 ❖</div>
+
+            <h2 id="aartiTitle" class="card-title">जय गणेश जय गणेश देवा</h2>
+            <p id="aartiDeity" class="card-deity">प्रथम पूज्य विघ्नहर्ता</p>
+
+            <div class="divider-gold">
+                <span class="divider-center">ॐ</span>
+            </div>
+
+            <!-- Live View Mode -->
+            <div id="aartiViewer" class="aarti-content"></div>
+
+            <!-- Personalization Editor Mode (Hidden by Default) -->
+            <div id="aartiEditorContainer" class="editor-container hidden">
+                <p class="editor-help">अपनी मण्डली या परिवार अनुसार बदलाव करें। यह स्वतः सेव हो जाएगा:</p>
+                <textarea id="aartiEditorInput" rows="16"></textarea>
+                <div class="editor-actions">
+                    <button id="saveEditBtn" class="gold-pill-btn">सहेजें (Save Changes)</button>
+                    <button id="cancelEditBtn" class="action-btn">रद्द करें</button>
+                </div>
+            </div>
+
+            <div class="card-border-ornament bottom-ornament">❖ 𑁍 ❖</div>
+        </article>
+    </main>
+
+    <!-- ROYAL FOOTER -->
+    <footer class="royal-footer">
+        <div class="footer-container">
+            <div class="footer-mantra">
+                कर्पूरगौरं करुणावतारं संसारसारं भुजगेन्द्रहारम्। <br>
+                सदावसन्तं हृदयारविन्दे भवं भवानीसहितं नमामि॥
+            </div>
+            <div class="footer-meta">
+                <p>निजी पारिवारिक संकलन • Personal & Team Devotional Collection</p>
+                <p class="copyright">शुभं भवतु कल्याणम् • Designed for GitHub Pages</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
