@@ -1,7 +1,8 @@
 /* ==========================================================================
-   DEFAULT SACRED TEXT DATA (Can be customized via the web UI)
+   DEFAULT SACRED TEXT DATA
    ========================================================================== */
 const DEFAULT_AARTIS = {
+    /* =========================== GANESH ==================================== */
     ganesh: {
         id: "ganesh",
         title: "जय गणेश जय गणेश देवा",
@@ -21,6 +22,113 @@ const DEFAULT_AARTIS = {
 माता जाकी पार्वती, पिता महादेवा॥
 जय गणेश, जय गणेश, जय गणेश देवा...`
     },
+
+    /* =========================== GAURI / AMBEY MA ========================== */
+    gauri: {
+        id: "gauri",
+        title: "जय अम्बे गौरी, मैया जय श्यामा गौरी।",
+        deity: "जय माता दी!",
+        content: `जय अम्बे गौरी, मैया जय श्यामा गौरी।
+तुमको निशदिन ध्यावत, हरि ब्रह्मा शिवरी॥
+
+मांग सिंदूर विराजत, टीको मृगमद को।
+उज्ज्वल से दोउ नैना, चन्द्रवदन नीको॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+कनक समान कलेवर, रक्ताम्बर राजै।
+रक्तपुष्प गल माला, कण्ठन पर साजै॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+केहरि वाहन राजत, खड्ग खप्पर धारी।
+सुर नर मुनिजन सेवत, तिनके दुःखहारी॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+कानन कुण्डल शोभित, नासाग्रे मोती।
+कोटिक चन्द्र दिवाकर, राजत सम ज्योति॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+शुम्भ निशुम्भ बिडारे, महिषासुर घाती।
+धूम्र विलोचन नैना, निशदिन मदमाती॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+चण्ड मुण्ड संहारे, शोणित बीज हरे।
+मधु कैटभ दोउ मारे, सुर भयहीन करे॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+ब्रह्माणी रुद्राणी, तुम कमला रानी।
+आगम निगम बखानी, तुम शिव पटरानी॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+चौंसठ योगिनी मंगल गावत, नृत्य करत भैरों।
+बाजत ताल मृदंगा, अरु बाजत डमरू॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+तुम ही जग की माता, तुम ही हो भरता।
+भक्तन की दुःख हरता, सुख सम्पत्ति करता॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+भुजा चार अति शोभित, खड्ग खप्पर धारी।
+मनवांछित फल पावत, सेवत नर नारी॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+कंचन थाल विराजत, अगर कपूर बाती।
+श्रीमालकेतु में राजत, कोटि रतन ज्योति॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी॥
+
+श्री अम्बेजी की आरती, जो कोई नर गावै।
+कहत शिवानन्द स्वामी, सुख सम्पत्ति पावै॥
+जय अम्बे गौरी, मैया जय श्यामा गौरी।
+तुमको निशदिन ध्यावत, हरि ब्रह्मा शिवरी॥`
+    },
+
+    /* =========================== JAGDISH =================================== */
+    jagdish: {
+        id: "jagdish",
+        title: "जय जगदीश हरे, स्वामी जय जगदीश हरे।",
+        deity: "जय श्री हरि विष्णु!",
+        content: `ॐ जय जगदीश हरे, स्वामी जय जगदीश हरे।
+भक्त जनों के संकट, क्षण में दूर करे॥
+
+जो ध्यावे फल पावे, दुःख बिनसे मन का।
+स्वामी दुःख बिनसे मन का।
+सुख सम्पत्ति घर आवे, कष्ट मिटे तन का॥
+ॐ जय जगदीश हरे॥
+
+मात-पिता तुम मेरे, शरण गहूँ मैं किसकी।
+स्वामी शरण गहूँ मैं किसकी।
+तुम बिन और न दूजा, आस करूँ मैं जिसकी॥
+ॐ जय जगदीश हरे॥
+
+तुम पूरण परमात्मा, तुम अन्तर्यामी।
+स्वामी तुम अन्तर्यामी।
+पारब्रह्म परमेश्वर, तुम सबके स्वामी॥
+ॐ जय जगदीश हरे॥
+
+तुम करुणा के सागर, तुम पालनकर्ता।
+स्वामी तुम पालनकर्ता।
+मैं मूरख खल कामी, कृपा करो भर्ता॥
+ॐ जय जगदीश हरे॥
+
+तुम हो एक अगोचर, सबके प्राणपति।
+स्वामी सबके प्राणपति।
+किस विधि मिलूँ दयामय, तुमको मैं कुमति॥
+ॐ जय जगदीश हरे॥
+
+दीनबन्धु दुःखहर्ता, ठाकुर तुम मेरे।
+स्वामी रक्षक तुम मेरे।
+अपने हाथ उठाओ, द्वार पड़ा तेरे॥
+ॐ जय जगदीश हरे॥
+
+विषय-विकार मिटाओ, पाप हरो देवा।
+स्वामी पाप हरो देवा।
+श्रद्धा-भक्ति बढ़ाओ, सन्तन की सेवा॥
+ॐ जय जगदीश हरे॥
+
+ॐ जय जगदीश हरे, स्वामी जय जगदीश हरे।
+भक्त जनों के संकट, क्षण में दूर करे॥`
+    },
+
+    /* =========================== HANUMAN =================================== */
     hanuman: {
         id: "hanuman",
         title: "आरती कीजै हनुमान लला की",
@@ -61,6 +169,8 @@ const DEFAULT_AARTIS = {
 बसि बैकुंठ परम पद पावै॥
 आरती कीजै हनुमान लला की...`
     },
+
+    /* =========================== SHIV ====================================== */
     shiv: {
         id: "shiv",
         title: "जय शिव ओंकारा",
@@ -89,6 +199,8 @@ const DEFAULT_AARTIS = {
 कहत शिवानंद स्वामी, मनवांछित फल पावे॥
 ॐ जय शिव ओंकारा...`
     },
+
+    /* =========================== LAKSHMI =================================== */
     lakshmi: {
         id: "lakshmi",
         title: "ॐ जय लक्ष्मी माता",
@@ -132,10 +244,16 @@ let autoScrollInterval = null;
 let rhythmInterval = null;
 let audioCtx = null;
 
-/* LocalStorage Manager */
+/* LocalStorage Manager: Safely merges defaults with saved changes */
 function getSavedAartis() {
     const data = localStorage.getItem("mandir_custom_aartis");
-    return data ? JSON.parse(data) : JSON.parse(JSON.stringify(DEFAULT_AARTIS));
+    if (!data) return JSON.parse(JSON.stringify(DEFAULT_AARTIS));
+    try {
+        const parsed = JSON.parse(data);
+        return Object.assign({}, DEFAULT_AARTIS, parsed);
+    } catch (e) {
+        return JSON.parse(JSON.stringify(DEFAULT_AARTIS));
+    }
 }
 
 function saveAartis(data) {
@@ -154,7 +272,6 @@ function playTempleBell() {
     }
 
     const now = audioCtx.currentTime;
-    // Fundamental & metallic brass overtone harmonic ratios
     const harmonics = [1200, 2410, 3620, 5140];
     const gains = [0.4, 0.25, 0.15, 0.08];
 
@@ -189,6 +306,8 @@ function renderActiveAarti() {
     const aartis = getSavedAartis();
     const current = aartis[activeId] || DEFAULT_AARTIS[activeId];
 
+    if (!current) return;
+
     titleEl.textContent = current.title;
     deityEl.textContent = current.deity;
     viewerEl.textContent = current.content;
@@ -199,7 +318,6 @@ function renderActiveAarti() {
         tab.classList.toggle("active", tab.dataset.id === activeId);
     });
 
-    // Keep viewing mode visible
     viewerEl.classList.remove("hidden");
     editorContainer.classList.add("hidden");
 }
@@ -232,7 +350,7 @@ rhythmBtn.addEventListener("click", () => {
     }
 });
 
-// Font Scaling
+// Font Scaling (Fixed space syntax bug)
 document.getElementById("zoomInBtn").addEventListener("click", () => {
     if (currentFontSizeRem < 2.2) {
         currentFontSizeRem += 0.15;
@@ -247,7 +365,7 @@ document.getElementById("zoomOutBtn").addEventListener("click", () => {
     }
 });
 
-// Hands-free Auto-Scroll
+// Auto-Scroll
 const scrollToggleBtn = document.getElementById("scrollToggleBtn");
 const scrollSpeedSelect = document.getElementById("scrollSpeed");
 
@@ -265,7 +383,6 @@ scrollToggleBtn.addEventListener("click", () => {
             const speed = parseInt(scrollSpeedSelect.value, 10);
             window.scrollBy({ top: speed, behavior: "smooth" });
 
-            // Stop at bottom
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 5) {
                 clearInterval(autoScrollInterval);
                 autoScrollInterval = null;
@@ -276,7 +393,7 @@ scrollToggleBtn.addEventListener("click", () => {
     }
 });
 
-// Personalization / Editor Controls
+// Editor Controls
 const editToggleBtn = document.getElementById("editToggleBtn");
 editToggleBtn.addEventListener("click", () => {
     viewerEl.classList.add("hidden");
@@ -304,5 +421,5 @@ document.getElementById("resetAartiBtn").addEventListener("click", () => {
     }
 });
 
-// Initial boot
+// Initial Render
 renderActiveAarti();
